@@ -1,28 +1,9 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-    margin-bottom: 60px;
-    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #023047;
 }
-
-
-
-
-
-
 
 .page {
     display: flex;
@@ -76,9 +57,9 @@ body {
 }
 
 
-.form-group input:focus {
-    border: 1px solid #f72585;
-}
+    .form-group input:focus {
+        border: 1px solid #f72585;
+    }
 
 .form-group label {
     font-size: 14px;
@@ -115,7 +96,7 @@ body {
         color: #fff;
     }
 
-h1 {
+h1{
     text-align: center;
     align-items: center;
 }
@@ -124,28 +105,3 @@ p {
     text-align: center;
     align-items: center;
 }
-
-.btn-editar {
-    background-color: yellow;
-    width: 22px;
-    height: 5px;
-    color: black;
-    text-decoration: none;
-}
-
-.btn-detalhes {
-    background-color: green;
-    width: 22px;
-    height: 5px;
-    color: black;
-    text-decoration: none;
-}
-
-.btn-delete {
-    background-color: red;
-    width: 22px;
-    height: 5px;
-    color: black;
-    text-decoration: none;
-}
-

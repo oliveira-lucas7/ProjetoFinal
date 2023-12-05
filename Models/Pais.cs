@@ -4,11 +4,11 @@ using System.Xml.Linq;
 
 namespace ProjetoFinal.Models
 {
-    public class País
+    public class Pais
     {
-        [Column("PaisId")]
+        [Column("Id")]
         [Display(Name = "Código do País")]
-        public int PaisId { get; set; }
+        public int Id { get; set; }
 
         [Column("PaisNome")]
         [Display(Name = "Digite o nome do País")]

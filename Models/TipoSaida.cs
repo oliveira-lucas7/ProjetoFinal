@@ -6,9 +6,9 @@ namespace ProjetoFinal.Models
 {
     public class TipoSaida
     {
-        [Column("TipoSaidaId")]
+        [Column("Id")]
         [Display(Name = "Código do Tipo de saída do Produto")]
-        public int TipoSaidaId { get; set; }
+        public int Id { get; set; }
 
         [Column("TipoSaidaDescricao")]
         [Display(Name = "Digite a descrição da saída do produto")]

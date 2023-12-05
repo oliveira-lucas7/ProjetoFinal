@@ -1,4 +1,4 @@
-using Barbearia.Models;
+using ProjetoFinal.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,11 +6,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDbContext<Contexto>
+    (options => options.UseSqlServer("Data Source=SP-1491011\\SQLSENAI; Initial Catalog = Barbearia; Integrated Security = True; TrustServerCertificate = True;"));
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-builder.Services.AddDbContext<Contexto>
-    (options => options.UseSqlServer("Data Source=SP-1491011\\SQLSENAI; Initial Catalog = Barbearia; Integrated Security = True; TrustServerCertificate = True;"));
 
 if (!app.Environment.IsDevelopment())
 {
@@ -28,6 +30,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Usuario}/{action=Login}/");
 
 app.Run();
