@@ -2,7 +2,35 @@
     ViewData["Title"] = "Home Page";
 }
 
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+
 <div class="text-center">
-    <h1 class="display-4">Seja Bem Vindo</h1>
+    <h1 class="display-4">Seja Bem Vindo!</h1>
     <p>Gerencie a sua empresa</p>
+    <div class="cards">
+        <a class="card red" href="https://localhost:7167/Cidade/index">
+            <p class="tip">Cidade</p>
+            <p class="second-text">Faça o cadastro de uma cidade</p>
+        </a>
+        <a class="card red" href="https://localhost:7167/Estado/index">
+            <p class="tip">Estado</p>
+            <p class="second-text">Faça o cadastro do estado</p>
+        </a>
+        <a class="card red" href="https://localhost:7167/Pais/index">
+            <p class="tip">País</p>
+            <p class="second-text">Faça o cadastro do país</p>
+        </a>
+        <a class="card red" href="https://localhost:7167/Produto/index">
+            <p class="tip">Produto</p>
+            <p class="second-text">Faça o cadastro do produto</p>
+        </a>
+        <a class="card red" href="https://localhost:7167/EntradaProduto/index">
+            <p class="tip">Entrada de Produto</p>
+            <p class="second-text">Faça o cadastro da entrada de produto</p>
+        </a>
+        <a class="card red" href="https://localhost:7167/SaidaProduto/index">
+            <p class="tip">Saída de produto</p>
+            <p class="second-text">Faça o cadastro da saída de produto</p>
+        </a>
+    </div>
 </div>
