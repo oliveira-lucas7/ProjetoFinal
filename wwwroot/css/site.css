@@ -18,8 +18,42 @@ body {
     background-color: #5681a1;
 }
 
+.col-md-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a5b2bd;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
 
+.form-group{
+    padding: 5px;
+    margin: 5px;
+}
 
+.return{
+    background-color: red;
+    width: 150px;
+    height: 27px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    margin: 15px auto;
+}
+
+.title-return{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    margin: 0 auto;
+    justify-content: center;
+}
 
 
 
