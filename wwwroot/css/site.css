@@ -27,6 +27,7 @@ body {
     border-radius: 10px;
     justify-content: center;
     margin: 0 auto;
+    border-radius: 15px;
 }
 
 .form-group{
@@ -45,7 +46,19 @@ body {
     margin: 15px auto;
 }
 
-.title-return{
+
+.btn-danger {
+    background-color: red;
+    width: 150px;
+    height: 27px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    margin: 15px auto;
+}
+
+.title-return {
     display: flex;
     text-align: center;
     text-decoration: none;
@@ -53,6 +66,46 @@ body {
     color: black;
     margin: 0 auto;
     justify-content: center;
+}
+
+.title-return:hover{
+    color: white;
+}
+
+    .btn-primeiro {
+        background-color: #3a3e40;
+        height: 50px;
+        width: 200px;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+.title-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+}
+
+.title-btn:hover{
+    color: white;
+}
+
+
+.container-delete .row{
+    display: flex;
+    align-items: center;
+    background-color: #a5b2bd;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin: 10px auto;
 }
 
 
